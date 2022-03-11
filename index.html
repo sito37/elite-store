@@ -10,374 +10,572 @@
 
 <body>
   <header class="header">
+    <i class="fa-solid fa-bars header__menu"></i>      
     <div>
       <img src="" alt="avpto logo">
     </div>
     <div>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Category</a></li>
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">Exciting Others</a></li>
-        <li><a href="#">Track Order</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact Us</a></li>
+      <ul class="header__nav-list">
+        <li><a class="header__nav-list-item" href="#">Home</a></li>
+        <li><a class="header__nav-list-item" href="#">Category</a></li>
+        <li><a class="header__nav-list-item" href="#">Shop</a></li>
+        <li><a class="header__nav-list-item" href="#">Exciting Others</a></li>
+        <li><a class="header__nav-list-item" href="#">Track Order</a></li>
+        <li><a class="header__nav-list-item" href="#">Blog</a></li>
+        <li><a class="header__nav-list-item" href="#">Contact Us</a></li>
       </ul>
     </div>
-    <div>
-      <i>icon1</i>
-      <i>icon2</i>
-      <i>icon3</i>
-      <i>icon4</i>
+    <div class="header__icons">
+      <i class="fa-solid fa-magnifying-glass"></i>      
+      <i class="fa-regular fa-heart"></i>
+      <i class="fa-solid fa-cart-shopping"></i>
+      <i class="fa-regular fa-user"></i>
     </div>
   </header>
-  <section>
-    <div>
-      <img src="" alt="boy image">
+  <section class="hero"> 
+    <div class="hero__image-holder">
+      <img class="hero__image" src="./public/assets/images/kindpng_42128.png" alt="boy image">
     </div>
-    <div>
-      <h4>For the Best</h4>
-      <h2>Discount Sale</h2>
-      <p>The Big Offer Day Extra 10% Off</p>
-      <div>
-        <div>
-          <h3>01</h3>
+    <div class=" hero__text-container">
+      <p class="hero__text-header">For the Best</p>
+      <h2 class="hero__text-subheader">Discount Sale</h2>
+      <p class="hero__text-description">The Big Offer Day Extra 10% Off</p>
+      <div class="hero__time-container">
+        <div class="hero__time">
+          <h5>01</h5>
           <p>Days</p>
         </div>
-        <div>
-          <h3>05</h3>
+        <div class="hero__time">
+          <h5>05</h5>
           <p>Hours</p>
         </div>
-        <div>
-          <h3>21</h3>
+        <div class="hero__time">
+          <h5>21</h5>
           <p>Mins</p>
         </div>
-        <div>
-          <h3>21</h3>
+        <div class="hero__time">
+          <h5>21</h5>
           <p>Secs</p>
         </div>
       </div>
-      <button>Order Now</button>
+      <button class="hero__cta">Order Now</button>
     </div>
   </section>
-  <section>
-    <div>
-      <h4>Top Collection 2021</h4>
-      <a href="#">View all</a>
+  <section class="collection">
+    <div class="collection__heading container">
+      <h4 class="collection__header">Top Collection 2021</h4>
+      <a class="collection__link" href="#">View all</a>
     </div>
-    <div>
-      <div>
-        <img src="" alt="card image">
-        <h5>Modern Design Hat</h5>
-        <div>
-          <i>star rating icons</i>
-          <p>(5 Reviews)</p>
-          <p>$25.00</p>
+    <div class="collection__card-holder container">
+      <div class="collection__card">
+        <img class="collection__card-image" src="./public/assets/images/gradient1.jpg" alt="card image">
+        <div class="collection__text-area" >
+          <h5 class="collection__tittle">Modern Design Hat</h5>
+          <div class="collection__card-footer">
+            <div class="collection__rating-holder">
+              <span class="fa fa-star collection__rating collection__rating--checked"></span>
+              <span class="fa fa-star collection__rating collection__rating--checked"></span>
+              <span class="fa fa-star collection__rating "></span>
+              <span class="fa fa-star collection__rating "></span>
+              <span class="fa fa-star collection__rating "></span>
+            </div>
+            <p class="collection__review">(5 Reviews)</p>
+            <p class="collection__price">$25.00</p>
+          </div>
         </div>
+        
       </div>
-      <div>
-        <img src="" alt="card image">
-        <h5>Winter Saver Design Hat</h5>
-        <div>
-          <i>star rating icons</i>
-          <p>(25 Reviews)</p>
-          <p>$50.00</p>
+      <div class="collection__card">
+        <img class="collection__card-image" src="./public/assets/images/gradient1.jpg" alt="card image">
+        <div class="collection__text-area">
+          <h5 class="collection__tittle">Winter Saver Design Hat</h5>
+          <div class="collection__card-footer"> 
+            <div class="collection__rating-holder">
+              <span class="fa fa-star collection__rating collection__rating--checked"></span>
+              <span class="fa fa-star collection__rating collection__rating--checked"></span>
+              <span class="fa fa-star collection__rating collection__rating--checked"></span>
+              <span class="fa fa-star collection__rating collection__rating--checked"></span>
+              <span class="fa fa-star collection__rating "></span>
+            </div>
+            <p class="collection__review">(25 Reviews)</p>
+            <p class="collection__price">$50.00</p>
+          </div>
         </div>
+        
       </div>
-      <div>
-        <img src="" alt="card image">
-        <h5>Green Yellow Detailed Blouse</h5>
-        <div>
-          <i>star rating icons</i>
-          <p>(15 Reviews)</p>
-          <p>$35.00</p>
+      <div class="collection__card">
+        <img class="collection__card-image" src="./public/assets/images/gradient1.jpg" alt="card image">
+        <div class="collection__text-area">
+          <h5 class="collection__tittle">Green Yellow Detailed Blouse</h5>
+          <div class="collection__card-footer">
+            <div class="collection__rating-holder">
+              <span class="fa fa-star collection__rating collection__rating--checked "></span>
+              <span class="fa fa-star collection__rating collection__rating--checked "></span>
+              <span class="fa fa-star collection__rating collection__rating--checked"></span>
+              <span class="fa fa-star collection__rating "></span>
+              <span class="fa fa-star collection__rating "></span>
+            </div>
+            <p class="collection__review">(15 Reviews)</p>
+            <p class="collection__price">$35.00</p>
+          </div>
         </div>
+        
       </div>
-      <div>
-        <img src="" alt="card image">
-        <h5>Trench coat(Women)</h5>
-        <div>
-          <i>star rating icons</i>
-          <p>(50 Reviews)</p>
-          <p>$22.00</p>
+      <div class="collection__card">
+        <img class="collection__card-image" src="./public/assets/images/gradient1.jpg" alt="card image">
+        <div class="collection__text-area">
+          <h5 class="collection__tittle">Trench coat(Women)</h5>
+          <div class="collection__card-footer">
+            <div class="collection__rating-holder">
+              <span class="fa fa-star collection__rating collection__rating--checked"></span>
+              <span class="fa fa-star collection__rating collection__rating--checked"></span>
+              <span class="fa fa-star collection__rating collection__rating--checked"></span>
+              <span class="fa fa-star collection__rating collection__rating--checked"></span>
+              <span class="fa fa-star collection__rating collection__rating--checked"></span>
+            </div>
+            <p class="collection__review">(50 Reviews)</p>
+            <p class="collection__price">$22.00</p>
+          </div>
         </div>
+        
       </div>
-      <div>
-        <img src="" alt="card image">
-        <h5>Trench coat (Men)</h5>
-        <div>
-          <i>star rating icons</i>
-          <p>(7 Reviews)</p>
-          <p>$175.00</p>
+      <div class="collection__card">
+        <img class="collection__card-image" src="./public/assets/images/gradient1.jpg" alt="card image">
+        <div class="collection__text-area">
+          <h5 class="collection__tittle">Trench coat (Men)</h5>
+          <div class="collection__card-footer">
+            <div class="collection__rating-holder">
+              <span class="fa fa-star collection__rating collection__rating--checked"></span>
+              <span class="fa fa-star collection__rating collection__rating--checked"></span>
+              <span class="fa fa-star collection__rating "></span>
+              <span class="fa fa-star collection__rating "></span>
+              <span class="fa fa-star collection__rating "></span>
+            </div>
+            <p class="collection__review">(7 Reviews)</p>
+            <p class="collection__price">$175.00</p>
+          </div>
         </div>
+        
       </div>
-      <div>
-        <img src="" alt="card image">
-        <h5>Drawstring Bag</h5>
-        <div>
-          <i>star rating icons</i>
-          <p>(10 Reviews)</p>
-          <p>$150.00</p>
+      <div class="collection__card">
+        <img class="collection__card-image" src="./public/assets/images/gradient1.jpg" alt="card image">
+        <div class="collection__text-area">
+          <h5 class="collection__tittle">Drawstring Bag</h5>
+          <div class="collection__card-footer">
+            <div class="collection__rating-holder">
+              <span class="fa fa-star collection__rating collection__rating--checked"></span>
+              <span class="fa fa-star collection__rating collection__rating--checked"></span>
+              <span class="fa fa-star collection__rating collection__rating--checked"></span>
+              <span class="fa fa-star collection__rating "></span>
+              <span class="fa fa-star collection__rating "></span>
+            </div>
+            <p class="collection__review">(10 Reviews)</p>
+            <p class="collection__price">$150.00</p>
+          </div>
         </div>
+        
       </div>
-      <div>
-        <img src="" alt="card image">
-        <h5>Navy Blue Modern Scarf</h5>
-        <div>
-          <i>star rating icons</i>
-          <p>(8 Reviews)</p>
-          <p>$15.00</p>
+      <div class="collection__card">
+        <img class="collection__card-image" src="./public/assets/images/gradient1.jpg" alt="card image">
+        <div class="collection__text-area">
+          <h5 class="collection__tittle">Navy Blue Modern Scarf</h5>
+          <div class="collection__card-footer">
+            <div class="collection__rating-holder">
+              <span class="fa fa-star collection__rating collection__rating--checked"></span>
+              <span class="fa fa-star collection__rating collection__rating--checked"></span>
+              <span class="fa fa-star collection__rating collection__rating--checked"></span>
+              <span class="fa fa-star collection__rating "></span>
+              <span class="fa fa-star collection__rating "></span>
+            </div>
+            <p class="collection__review">(8 Reviews)</p>
+            <p class="collection__price">$15.00</p>
+          </div>
         </div>
+        
       </div>
-      <div>
-        <img src="" alt="card image">
-        <h5>Red Modern Scarf</h5>
-        <div>
-          <i>star rating icons</i>
-          <p>(20 Reviews)</p>
-          <p>$15.00</p>
+      <div class="collection__card">
+        <img class="collection__card-image" src="./public/assets/images/gradient1.jpg" alt="card image">
+        <div class="collection__text-area">
+          <h5 class="collection__tittle">Red Modern Scarf</h5>
+          <div class="collection__card-footer">
+            <div class="collection__rating-holder">
+              <span class="fa fa-star collection__rating collection__rating--checked"></span>
+              <span class="fa fa-star collection__rating collection__rating--checked"></span>
+              <span class="fa fa-star collection__rating collection__rating--checked"></span>
+              <span class="fa fa-star collection__rating collection__rating--checked"></span>
+              <span class="fa fa-star collection__rating"></span>
+            </div>
+            <p class="collection__review">(20 Reviews)</p>
+            <p class="collection__price">$15.00</p>
+          </div>
         </div>
+        
       </div>
     </div>
   </section>
-  <section>
-    <p>Category</p>
-    <div>
-      <div>
-        <img src="" alt="Men collection">
-        <h5>Men</h5>
-        <p>80 item</p>
+  <section class="category container">
+    <div class="category__header-holder">
+      <p class="category__header">Category</p>
+    </div>
+    <div class="category__holder">
+      <div class="category__card">
+        <img class="category__image" src="./public/assets/images/gradient1.jpg" alt="Men collection">
+        <div class="category__card-text">
+          <h5 class="category__card-header">Men</h5>
+          <p class="category__card-count">80 item</p>
+        </div>
       </div>
-      <div>
-        <img src="" alt="Women collection">
-        <h5>Women</h5>
-        <p>70 item</p>
+      <div class="category__card">
+        <img class="category__image" src="./public/assets/images/gradient1.jpg" alt="Women collection">
+        <div class="category__card-text">
+          <h5 class="category__card-header">Women</h5>
+          <p class="category__card-count">70 item</p>
+        </div>
       </div>
-      <div>
-        <img src="" alt="Kids collection">
-        <h5>Kids</h5>
-        <p>100 item</p>
+      <div class="category__card">
+        <img class="category__image" src="./public/assets/images/gradient1.jpg" alt="Kids collection">
+        <div class="category__card-text">
+          <h5 class="category__card-header">Kids</h5>
+          <p class="category__card-count">100 item</p>
+        </div>
       </div>
-      <div>
-        <img src="" alt="Fashion collection">
-        <h5>Fashion</h5>
-        <p>200 item</p>
+      <div class="category__card">
+        <img class="category__image" src="./public/assets/images/gradient1.jpg" alt="Fashion collection">
+        <div class="category__card-text">
+          <h5 class="category__card-header">Fashion</h5>
+          <p class="category__card-count">200 item</p>
+        </div>
+        
       </div>
     </div>
   </section>
-  <section>
-    <div>
-      <h5>Exciting Offers (Winter)</h5>
-      <p><span></span> <span>></span></p>
+  <section class="offers container">
+    <div class="offers__header-holder">
+      <h5 class="offers__header">Exciting Offers (Winter)</h5>
+      <div class="offers__angle-holder">
+        <a href=""><i class="fa-solid fa-angle-left offers__angle "></i></a>
+        <a href=""><i class="fa-solid fa-angle-right offers__angle offers__angle--checked"></i></a>
+      </div>
     </div>
-    <div>
-      <div>
-        <img src="" alt="card image">
-        <div>
-          <h5>Wide Cut Round Hat</h5>
-          <div>
-            <i>star rating icon</i>
-            <p>(7 Reviews)</p>
+    <div class="offers__card-holder">
+      <div class="offers__card">
+        <img class="offers__card-image" src="./public/assets/images/gradient1.jpg" alt="card image">
+        <div class="offers__card-text-holder">
+          <h5 class="offers__card-header">Wide Cut Round Hat</h5>
+          <div class="offers__rating-holder">
+            <div>
+              <span class="fa fa-star offers__rating offers__rating--checked"></span>
+              <span class="fa fa-star offers__rating offers__rating--checked"></span>
+              <span class="fa fa-star offers__rating offers__rating--checked"></span>
+              <span class="fa fa-star offers__rating offers__rating--checked"></span>
+              <span class="fa fa-star offers__rating"></span> 
+            </div>
+            <p class="offers__card-review">(7 Reviews)</p>
           </div>
-          <div>
-            <p>$130.00 <span>$175.00</span></p>
-            <button>10% Off</button>
-          </div>
-        </div>
-      </div>
-      <div>
-        <img src="" alt="card image">
-        <div>
-          <h5>Navy Blue Bland Sweater</h5>
-          <div>
-            <i>star rating icon</i>
-            <p>(10 Reviews)</p>
-          </div>
-          <div>
-            <p>$699.00 <span>$899.00</span></p>
-            <button>12% Off</button>
+          <div class="offers__card-footer">
+            <div class="offers__prices">
+              <p class="offers__price">$130.00 </p>
+              <p class="offers__price offers__price--slashed">$175.00</p>
+            </div>
+            <p class="offers__discount">10% Off</p>
           </div>
         </div>
       </div>
-      <div>
-        <img src="" alt="card image">
-        <div>
-          <h5>Brown Cashmere Sweater</h5>
-          <div>
-            <i>star rating icon</i>
-            <p>(10 Reviews)</p>
+      <div class="offers__card">
+        <img class="offers__card-image" src="./public/assets/images/gradient1.jpg" alt="card image">
+        <div class="offers__card-text-holder">
+          <h5 class="offers__card-header">Navy Blue Bland Sweater</h5>
+          <div class="offers__rating-holder">
+            <div>
+              <span class="fa fa-star offers__rating offers__rating--checked"></span>
+              <span class="fa fa-star offers__rating offers__rating--checked"></span>
+              <span class="fa fa-star offers__rating offers__rating--checked"></span>
+              <span class="fa fa-star offers__rating offers__rating--checked"></span>
+              <span class="fa fa-star offers__rating"></span> 
+            </div>
+            <p class="offers__card-review">(7 Reviews)</p>
           </div>
-          <div>
-            <p>$25.00 <span>$35.00</span></p>
-            <button>5% Off</button>
-          </div>
-        </div>
-      </div>
-      <div>
-        <img src="" alt="card image">
-        <div>
-          <h5>Universal Black Shoes</h5>
-          <div>
-            <i>star rating icon</i>
-            <p>(9 Reviews)</p>
-          </div>
-          <div>
-            <p>$130.00 <span>$175.00</span></p>
-            <button>8% Off</button>
+          <div class="offers__card-footer">
+            <div class="offers__prices">
+              <p class="offers__price ">$699.00 </p>
+              <p class="offers__price offers__price--slashed">$899.00</p>
+            </div>
+            <p class="offers__discount">12% Off</p>
           </div>
         </div>
       </div>
-      <div>
-        <img src="" alt="card image">
-        <div>
-          <h5>Yellow Free Light Cloth</h5>
-          <div>
-            <i>star rating icon</i>
-            <p>(7 Reviews)</p>
+      <div class="offers__card">
+        <img class="offers__card-image" src="./public/assets/images/gradient1.jpg" alt="card image">
+        <div class="offers__card-text-holder">
+          <h5 class="offers__card-header">Brown Cashmere Sweater</h5>
+          <div class="offers__rating-holder">
+            <div>
+              <span class="fa fa-star offers__rating offers__rating--checked"></span>
+              <span class="fa fa-star offers__rating offers__rating--checked"></span>
+              <span class="fa fa-star offers__rating offers__rating--checked"></span>
+              <span class="fa fa-star offers__rating offers__rating--checked"></span>
+              <span class="fa fa-star offers__rating"></span> 
+            </div>
+            <p class="offers__card-review">(7 Reviews)</p>
           </div>
-          <div>
-            <p>$159.00 <span>$199.00</span></p>
-            <button>18% Off</button>
+          <div class="offers__card-footer">
+            <div class="offers__prices">
+              <p class="offers__price ">$25.00</p>
+              <p class="offers__price offers__price--slashed">$35.00</p>
+            </div>
+            <p class="offers__discount">5% Off</p>
           </div>
         </div>
       </div>
-      <div>
-        <img src="" alt="card image">
-        <div>
-          <h5>USB Powered Black Bag</h5>
-          <i>star rating icon</i>
-          <p>(25 Reviews)</p>
-          <p>$675.00 <span>$785.00</span></p>
-          <button>9% Off</button>
+      <div class="offers__card">
+        <img class="offers__card-image" src="./public/assets/images/gradient1.jpg" alt="card image">
+        <div class="offers__card-text-holder">
+          <h5 class="offers__card-header">Universal Black Shoes</h5>
+          <div class="offers__rating-holder">
+            <div>
+              <span class="fa fa-star offers__rating offers__rating--checked"></span>
+              <span class="fa fa-star offers__rating offers__rating--checked"></span>
+              <span class="fa fa-star offers__rating offers__rating--checked"></span>
+              <span class="fa fa-star offers__rating offers__rating--checked"></span>
+              <span class="fa fa-star offers__rating"></span> 
+            </div>
+            <p class="offers__card-review">(7 Reviews)</p>
+          </div>
+          <div class="offers__card-footer">
+            <div class="offers__prices">
+              <p class="offers__price">$130.00 </p>
+              <p class="offers__price offers__price--slashed">$175.00</p>
+            </div>
+            <p class="offers__discount">8% Off</p>
+          </div>
+        </div>
+      </div>
+      <div class="offers__card">
+        <img class="offers__card-image" src="./public/assets/images/gradient1.jpg" alt="card image">
+        <div class="offers__card-text-holder">
+          <h5 class="offers__card-header">Yellow Free Light Cloth</h5>
+          <div class="offers__rating-holder">
+            <div>
+              <span class="fa fa-star offers__rating offers__rating--checked"></span>
+              <span class="fa fa-star offers__rating offers__rating--checked"></span>
+              <span class="fa fa-star offers__rating offers__rating--checked"></span>
+              <span class="fa fa-star offers__rating offers__rating--checked"></span>
+              <span class="fa fa-star offers__rating"></span> 
+            </div>
+            <p class="offers__card-review">(7 Reviews)</p>
+          </div>
+          <div class="offers__card-footer">
+            <div class="offers__prices">
+              <p class="offers__price">$159.00</p>
+              <p class="offers__price offers__price--slashed">$199.00</p>
+            </div>
+            <p class="offers__discount">18% Off</p>
+          </div>
+        </div>
+      </div>
+      <div class="offers__card">
+        <img class="offers__card-image" src="./public/assets/images/gradient1.jpg" alt="card image">
+        <div class="offers__card-text-holder">
+          <h5 class="offers__card-header">USB Powered Black Bag</h5>
+          <div class="offers__rating-holder">
+            <div>
+              <span class="fa fa-star offers__rating offers__rating--checked"></span>
+              <span class="fa fa-star offers__rating offers__rating--checked"></span>
+              <span class="fa fa-star offers__rating offers__rating--checked"></span>
+              <span class="fa fa-star offers__rating offers__rating--checked"></span>
+              <span class="fa fa-star offers__rating"></span> 
+            </div>
+            <p class="offers__card-review">(7 Reviews)</p>
+          </div>
+          <div class="offers__card-footer">
+            <div class="offers__prices">
+              <p class="offers__price ">$675.00</p>
+              <p class="offers__price offers__price--slashed">$785.00</p>
+            </div>
+            <p class="offers__discount">9% Off</p>
+          </div>
         </div>
       </div>
     </div>
 
   </section>
-  <section>
-    <div>
-      <h5>New Arrival (Winter Collection)</h5>
-      <a href="#">View all</a>
+  <section class="arrivals container">
+    <div class="arrivals__header-holder">
+      <h5 class="arrivals__header">New Arrival (Winter Collection)</h5>
+      <a class="arrivals__link" href="#">View all</a>
     </div>
-    <div>
-      <div>
-        <img src="" alt="navy blue hat">
-        <h4>Navy Blue Hat</h4>
-        <p>We Essentials is focused on creating affordable, high-quality, and long-lasting everyday clothing you can
-          rely on. Our line of men's must-haves includes polo shirts, chino pants, classic-fit shorts, casual
-          button-downs, and crew-neck teesto our.</p>
-        <button>Shop Now</button>
+    <div class="arrivals__holder">
+      <div class="arrivals__image-holder">
+        <img class="arrivals__image" src="./public/assets/images/gradient1.jpg" alt="navy blue hat">
+        <div class="arrivals__image-text-holder">
+          <h4 class="arrivals__image-header">Navy Blue Hat</h4>
+          <p class="arrivals__image-description">We Essentials is focused on creating affordable, high-quality, and long-lasting everyday clothing you can
+            rely on. Our line of men's must-haves includes polo shirts, chino pants, classic-fit shorts, casual
+            button-downs, and crew-neck teesto our.</p>
+          <button class="arrivals__image-cta">Shop Now</button>
+        </div>
+        
       </div>
-      <div>
-        <div>
-          <img src="" alt="card image">
-          <h5>Universal White Shoes</h5>
-          <div>
-            <i>star rating icon</i>
-            <p>(15 Reviews)</p>
-            <p>$35.00</p>
+      <div class="arrivals__card-holder">
+        <div class="arrivals__card">
+          <img class="arrivals__card-image" src="./public/assets/images/gradient1.jpg" alt="card image">
+          <div class="arrivals__card-text-holder">
+            <h5 class="arrivals__card-header">Universal White Shoes</h5>
+            <div class="arrivals__card-footer">
+              <div class="arrivals__card-rating">
+                <span class="fa fa-star offers__rating offers__rating--checked"></span>
+                <span class="fa fa-star offers__rating offers__rating--checked"></span>
+                <span class="fa fa-star offers__rating offers__rating--checked"></span>
+                <span class="fa fa-star offers__rating offers__rating--checked"></span>
+                <span class="fa fa-star offers__rating"></span> 
+              </div>
+              <p class="arrivals__card-review">(15 Reviews)</p>
+              <p class="arrivals__card-price">$35.00</p>
+            </div>
           </div>
         </div>
-        <div>
-          <img src="" alt="card image">
-          <h5>T-Shirt for Women</h5>
-          <div>
-            <i>star rating icon</i>
-            <p>(50 Reviews)</p>
-            <p>$22.00</p>
+        <div class="arrivals__card">
+          <img class="arrivals__card-image" src="./public/assets/images/gradient1.jpg" alt="card image">
+          <div class="arrivals__card-text-holder">
+            <h5 class="arrivals__card-header">T-Shirt for Women</h5>
+            <div class="arrivals__card-footer">
+              <div class="arrivals__card-rating">
+                <span class="fa fa-star offers__rating offers__rating--checked"></span>
+                <span class="fa fa-star offers__rating offers__rating--checked"></span>
+                <span class="fa fa-star offers__rating offers__rating--checked"></span>
+                <span class="fa fa-star offers__rating offers__rating--checked"></span>
+                <span class="fa fa-star offers__rating"></span> 
+              </div>
+              <p>(50 Reviews)</p>
+              <p>$22.00</p>
+            </div>
           </div>
         </div>
-        <div>
-          <img src="" alt="card image">
-          <h5>Modern Design Hat</h5>
-          <div>
-            <i>star rating icon</i>
-            <p>(8 Reviews)</p>
-            <p>$15.00</p>
+        <div class="arrivals__card">
+          <img class="arrivals__card-image" src="./public/assets/images/gradient1.jpg" alt="card image">
+          <div class="arrivals__card-text-holder">
+            <h5 class="arrivals__card-header">Modern Design Hat</h5>
+            <div class="arrivals__card-footer">
+              <div class="arrivals__card-rating">
+                <span class="fa fa-star offers__rating offers__rating--checked"></span>
+                <span class="fa fa-star offers__rating offers__rating--checked"></span>
+                <span class="fa fa-star offers__rating offers__rating--checked"></span>
+                <span class="fa fa-star offers__rating offers__rating--checked"></span>
+                <span class="fa fa-star offers__rating"></span> 
+              </div>
+              <p>(8 Reviews)</p>
+              <p>$15.00</p>
+            </div>
           </div>
         </div>
-        <div>
-          <img src="" alt="card image">
-          <h5>Red Modern Scarf</h5>
-          <div>
-            <i>star rating icon</i>
-            <p>(20 Reviews)</p>
-            <p>$15.00</p>
+        <div class="arrivals__card">
+          <img class="arrivals__card-image" src="./public/assets/images/gradient1.jpg" alt="card image">
+          <div class="arrivals__card-text-holder">
+            <h5 class="arrivals__card-header">Red Modern Scarf</h5>
+            <div class="arrivals__card-footer">
+              <div class="arrivals__card-rating">
+                <span class="fa fa-star offers__rating offers__rating--checked"></span>
+                <span class="fa fa-star offers__rating offers__rating--checked"></span>
+                <span class="fa fa-star offers__rating offers__rating--checked"></span>
+                <span class="fa fa-star offers__rating offers__rating--checked"></span>
+                <span class="fa fa-star offers__rating"></span> 
+              </div>
+              <p>(20 Reviews)</p>
+              <p>$15.00</p>
+            </div>
           </div>
+          
         </div>
       </div>
     </div>
   </section>
-  <section>
-    <div>
-      <h5>From Our Blog</h5>
+  <section class="blog container">
+    <div class="blog__header-holder">
+      <h5 class="blog__header">From Our Blog</h5>
     </div>
-    <div>
-      <div>
-        <img src="" alt="blog image">
-        <p> By <span>Nick Jones</span>-05.09.2021</p>
-        <h5>Perfect to shop in summertime</h5>
-        <a href="#">Read more <i>forward arrow</i></a>
+    <div class="blog__card-holder">
+      <div class="blog__card">
+        <img class="blog__image" src="./public/assets/images/gradient1.jpg" alt="blog image">
+        <div class="blog__text-holder">
+          <p class="blog__author"> By <span>Nick Jones</span>-05.09.2021</p>
+          <p class="blog__quote">Perfect to shop in summertime</p>
+          <a class="blog__link" href="#">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
       </div>
-      <div>
-        <img src="" alt="blog image">
-        <p> By <span>Rita Ora</span>-13.05.2021</p>
-        <h5>Best cloth for winter to buy</h5>
-        <a href="#">Read more <i>forward arrow</i></a>
+      <div class="blog__card">
+        <img class="blog__image" src="./public/assets/images/gradient1.jpg" alt="blog image">
+        <div class="blog__text-holder">
+          <p class="blog__author"> By <span>Rita Ora</span>-13.05.2021</p>
+          <p class="blog__quote">Best cloth for winter to buy</p>
+          <a class="blog__link" href="#">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
       </div>
-      <div>
-        <img src="" alt="blog image">
-        <p> By <span>John Nick</span>-29.05.2021</p>
-        <h5>Don't waste your time and Buy Now</h5>
-        <a href="#">Read more <i>forward arrow</i></a>
+      <div class="blog__card">
+        <img class="blog__image" src="./public/assets/images/gradient1.jpg" alt="blog image">
+        <div class="blog__text-holder">
+          <p class="blog__author"> By <span>John Nick</span>-29.05.2021</p>
+          <p class="blog__quote">Don't waste your time and Buy Now</p>
+          <a class="blog__link" href="#">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
       </div>
-      <div>
-        <img src="" alt="blog image">
-        <p> By <span>Bruno March</span>-03.05.2021</p>
-        <h5>Fashion is everthing for me</h5>
-        <a href="#">Read more <i>forward arrow</i></a>
+      <div class="blog__card">
+        <img class="blog__image" src="./public/assets/images/gradient1.jpg" alt="blog image">
+        <div class="blog__text-holder">
+          <p class="blog__author"> By <span>Bruno March</span>-03.05.2021</p>
+          <p class="blog__quote">Fashion is everthing for me</p>
+          <a class="blog__link" href="#">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
       </div>
     </div>
   </section>
-  <section>
-    <div>
-      <i>van icon</i>
+  <section class="benefits container">
+    <div class="benefits__card">
+      <div class="benefits__icon-holder">
+        <i class="fa-solid fa-van-shuttle benefits__icon"></i>
+      </div>
+      <div class="benefits__text-holder">
+        <h4 class="benefits__header">Free Shipping</h4>
+        <p class="benefits__description">Free shipping on all order</p>
+      </div>
     </div>
-    <div>
-      <h4>Free Shipping</h4>
-      <p>Free shipping on all order</p>
+    <div class="benefits__card">
+      <div class="benefits__icon-holder">
+        <i class="fa-solid fa-clock-rotate-left benefits__icon"></i>
+      </div>
+      <div class="benefits__text-holder">
+        <h4 class="benefits__header">Online Support</h4>
+        <p class="benefits__description">Online suppor 24 hours a day</p>
+      </div>
     </div>
-    <div>
-      <i>24 icon</i>
+    <div class="benefits__card">
+      <div class="benefits__icon-holder">
+        <i class="fa-solid fa-circle-dollar-to-slot benefits__icon"></i>
+      </div>
+      <div class="benefits__text-holder">
+        <h4 class="benefits__header">Money Return</h4>
+        <p class="benefits__description">Back Guarantee under 5 days</p>
+      </div>
     </div>
-    <div>
-      <h4>Online Support</h4>
-      <p>Online suppor 24 hours a day</p>
+    <div class="benefits__card">
+      <div class="benefits__icon-holder">
+        <i class="fa-solid fa-power-off benefits__icon"></i>
+      </div>
+      <div class="benefits__text-holder">
+        <h4 class="benefits__header">Member Disscount</h4>
+        <p class="benefits__description">Onevery order over & 200</p>
+      </div>
     </div>
-    <div>
-      <i>Dollar icon</i>
-    </div>
-    <div>
-      <h4>Money Return</h4>
-      <p>Back Guarantee under 5 days</p>
-    </div>
-    <div>
-      <i>off icon</i>
-    </div>
-    <div>
-      <h4>Member Disscount</h4>
-      <p>Onevery order over & 200</p>
-    </div>
+    
   </section>
-  <section>
-    <div>
-      <img src="" alt="Avpto logo">
-      <p>The best Fashion shop in your area. Now you can buy your favorite one.</p>
-      <div>
-        <a href=""><i>facebook</i></a>
-        <a href=""><i>google</i></a>
-        <a href=""><i>Instagram</i></a>
-        <a href=""><i>twitter</i></a>
+  <footer class="footer">
+    <div class="footer__social">
+      <p class="footer__brand-logo">Avpto <span>.</span></p> 
+      <p class="footer__social-description">The best Fashion shop in your area. Now <br> you can buy your favorite one.</p>
+      <div class="footer__social-media-holder">
+        <a class="footer__social-media footer__logo--facebook" href="#"><img class="footer__logo" src="./assets/images/facebook.png" alt="facebook logo"></a>
+        <a class="footer__social-media footer__logo--google" href="#"><img class="footer__logo" src="./assets/images/google.png" alt="google logo"></a>
+        <a class="footer__social-media footer__logo--instagram" href="#"><img class="footer__logo" src="./assets/images/1_Instagram_colored_svg_1-512.webp" alt="instagram logo"></a>
+        <a class="footer__social-media footer__logo--twitter" href="#"><img class="footer__logo" src="./assets/images/twitter.png" alt="twitter logo"></a>
       </div>
     </div>
     <div>
@@ -424,9 +622,9 @@
       </div>
     </div>
     <div>
-      <img src="" alt="world map">
+      <img src="./public/assets/images/dottedcd-world-map.png" alt="world map">
     </div>
-  </section>
+  </footer>
   <script type="module" src="/src/main.js"></script>
 </body>
 

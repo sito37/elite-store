@@ -1,3 +1,24 @@
+
+
+
+.flex{
+  display: flex;
+}
+
+.row{
+flex-direction: row;
+}
+
+.column{
+flex-direction: column;
+}
+.container{
+  max-width: 960px;
+  margin: 0 auto;;
+}
+
+
+
 .margin-bottom-small {
   margin-bottom: 15px !important;
 }
